@@ -30,13 +30,13 @@ The model uses the **slope of the yield curve** (defined as the 10Y yield minus 
 Enter the slope value when prompted (e.g., 0.70 if the 10Y yield is 3.47% and 2Y yield is 2.77%).
 
 --- Asset Class Weights ---
-Short Bonds (WS): 28.00%
-Floating-Rate Notes (WF): 14.50%
-Long Bonds (WL): 27.00%
-Real Return Bonds (WR): 30.50%
+- Short Bonds (WS): 28.00%
+- Floating-Rate Notes (WF): 14.50%
+- Long Bonds (WL): 27.00%
+- Real Return Bonds (WR): 30.50%
 
 --- Maturity Bucket Weights ---
-Years 1–2 (Short + Floaters): 16.58%
-Year 3 (Short only): 9.33%
-Years 4–6 (RRBs only): 13.07%
-Years 7–10 (RRBs + Long): 44.27%
+- Years 1–2 (Short + Floaters): 16.58%
+- Year 3 (Short only): 9.33%
+- Years 4–6 (RRBs only): 13.07%
+- Years 7–10 (RRBs + Long): 44.27%
