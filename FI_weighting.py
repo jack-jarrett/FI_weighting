@@ -9,7 +9,7 @@ def calculate_weights(slope):
 
     # Step 2: Maturity Bucket Allocation
     buckets = {
-        "Years 1-2 (Short + Floaters)": (1/3)*WS + (1/2)*WF,
+        "Years 1-2 (Short + Floaters)": (2/3)*WS + WF,
         "Year 3 (Short only)": (1/3)*WS,
         "Years 4-6 (RRBs only)": (3/7)*WR,
         "Years 7-10 (RRBs + Long)": (4/7)*WR + WL
