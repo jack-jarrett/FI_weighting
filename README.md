@@ -5,14 +5,14 @@ This Python script implements a dynamic fixed-income allocation strategy based o
 - Asset class weights (Short-term bonds, Floaters, Long bonds, RRBs)
 - Maturity bucket allocations across a 10-year ladder
 
-## 📈 How It Works
+## How It Works
 
 The model uses the **slope of the yield curve** (defined as the 10Y yield minus the 2Y yield) to tilt the portfolio toward:
 
 - Short duration and floaters when the curve is flat or inverted
 - Long-term and real-return bonds when the curve is steep
 
-## 🧮 Formulas Used
+## Formulas Used
 
 ### Asset Class Weights
 - WS = 0.35 - 0.10 * S
